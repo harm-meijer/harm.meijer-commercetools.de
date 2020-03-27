@@ -953,6 +953,19 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
+"@commercetools/sdk-auth@^3.0.5":
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/@commercetools/sdk-auth/-/sdk-auth-3.0.5.tgz#fd9d065036aa0854951abc14d4f2fda651f748d4"
+  integrity sha512-a++BC4dDzEysNP9WNJtCCIZnW36nq/5UKuEX+vg6UH2Zyr5w22rRgbzxT/2pcRzWUw4PJGC9a9dIO8s7WI8ntw==
+  dependencies:
+    "@commercetools/sdk-middleware-http" "^6.0.5"
+    lodash.defaultsdeep "^4.6.0"
+
+"@commercetools/sdk-middleware-http@^6.0.5":
+  version "6.0.5"
+  resolved "https://registry.yarnpkg.com/@commercetools/sdk-middleware-http/-/sdk-middleware-http-6.0.5.tgz#f7175d7d78c8a2dfdcc8ca83ca9b9ebb015a0d06"
+  integrity sha512-jkGODxsxL4IP37Eg70i3cQe3tpLaK/wYmrTwm5UorIA1feQ+w6HtEog4eZyDmVTWHNQZS+y/il5yxfP6KPjJbA==
+
 "@csstools/convert-colors@^1.4.0":
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
@@ -6332,6 +6345,11 @@ lodash._reinterpolate@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/lodash._reinterpolate/-/lodash._reinterpolate-3.0.0.tgz#0ccf2d89166af03b3663c796538b75ac6e114d9d"
   integrity sha1-DM8tiRZq8Ds2Y8eWU4t1rG4RTZ0=
+
+lodash.defaultsdeep@^4.6.0:
+  version "4.6.1"
+  resolved "https://registry.yarnpkg.com/lodash.defaultsdeep/-/lodash.defaultsdeep-4.6.1.tgz#512e9bd721d272d94e3d3a63653fa17516741ca6"
+  integrity sha512-3j8wdDzYuWO3lM3Reg03MuQR957t287Rpcxp1njpEa8oDrikb+FwGdW3n+FELh/A6qib6yPit0j/pv9G/yeAqA==
 
 lodash.memoize@^4.1.2:
   version "4.1.2"
